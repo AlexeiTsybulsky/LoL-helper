@@ -151,7 +151,7 @@ champions = {
     143:"Zyra"
 }
 
-response = requests.get('https://na1.api.riotgames.com/lol/match/v4/matchlists/by-account/YVkEoQp6Jk5pP7mJDnPYMf2NnHWccRYBrIv5LcIjtVFN8c8?api_key=RGAPI-65b1396f-57f0-4faa-be9d-b3cc1ecff0d2')
+response = requests.get('https://na1.api.riotgames.com/lol/match/v4/matchlists/by-account/YVkEoQp6Jk5pP7mJDnPYMf2NnHWccRYBrIv5LcIjtVFN8c8?api_key=RGAPI-cd095552-7d07-49b6-9c10-bc53c2ff0643')
 data = response.json()
 
 matchesplayed = zeros([600],dtype=int)
