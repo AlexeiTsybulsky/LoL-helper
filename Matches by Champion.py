@@ -143,6 +143,7 @@ champions = {
     5:"XinZhao",
     157:"Yasuo",
     83:"Yorick",
+    350:"Yuumi",
     154:"Zac",
     238:"Zed",
     115:"Ziggs",
@@ -151,8 +152,11 @@ champions = {
     143:"Zyra"
 }
 
-response = requests.get('https://na1.api.riotgames.com/lol/match/v4/matchlists/by-account/YVkEoQp6Jk5pP7mJDnPYMf2NnHWccRYBrIv5LcIjtVFN8c8?api_key=RGAPI-cd095552-7d07-49b6-9c10-bc53c2ff0643')
+response = requests.get('https://na1.api.riotgames.com/lol/match/v4/matchlists/by-account/YVkEoQp6Jk5pP7mJDnPYMf2NnHWccRYBrIv5LcIjtVFN8c8?api_key=RGAPI-5478c4a3-e795-497b-9463-19f2a3c723e4')
 data = response.json()
+
+#Vincent Link
+#https://na1.api.riotgames.com/lol/match/v4/matchlists/by-account/IYFIgwYWg4rBEPsW6d12zFLWT8JQcZfqBJ9JrwjQu8s6aEc?api_key=RGAPI-cd095552-7d07-49b6-9c10-bc53c2ff0643
 
 matchesplayed = zeros([600],dtype=int)
 
