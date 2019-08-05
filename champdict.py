@@ -86,6 +86,7 @@ champions = {
     80:"Pantheon",
     78:"Poppy",
     555:"Pyke",
+    246:"Qiyana",
     133:"Quinn",
     497:"Rakan",
     33:"Rammus",
